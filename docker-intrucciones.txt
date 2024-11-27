@@ -1,0 +1,7 @@
+Comandos para desplegar cambios
+
+docker build -t arajetacrodsgroundsdev.azurecr.io/ods_grounds_backend:latest . 
+"Aqui se construye la imagen"
+
+docker push arajetacrodsgroundsdev.azurecr.io/ods_grounds_backend:latest 
+"Aqui se despliega a Azure"

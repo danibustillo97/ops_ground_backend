@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/src
+    env_file:
+      - .env
+
+    image: arajetacrodsgroundsdev.azurecr.io/odsgrounds-backend
+    ports:
+      - "80:80"

@@ -22,13 +22,12 @@ def get_password_hash(password: str) -> str:
     return pwd_context.hash(password)
 
 def create_access_token(data: dict, expires_delta: timedelta = None) -> str:
-    """Crea un token de acceso JWT con un tiempo de expiración."""
     to_encode = data.copy()
     if expires_delta:
         expire = datetime.utcnow() + expires_delta
     else:
         expire = datetime.utcnow() + timedelta(hours=72)
-    to_encode.update({"exp": expire})
+    to_encode.update({"exp": expire})  
     encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
     return encoded_jwt
 
@@ -50,7 +49,6 @@ def verify_access_token(token: str):
         )
 
 def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):
-    """ Verifica el token y devuelve el usuario asociado. """
     credentials_exception = HTTPException(
         status_code=status.HTTP_401_UNAUTHORIZED,
         detail="Could not validate credentials",

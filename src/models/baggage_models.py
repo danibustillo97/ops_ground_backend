@@ -1,5 +1,5 @@
 from datetime import datetime
-from sqlalchemy import Column, DateTime, String
+from sqlalchemy import Column, DateTime, String, Integer
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
@@ -27,3 +27,14 @@ class BaggageCase(Base):
     last_updated = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
     created_agente_name = Column(String, nullable=False)
     number_ticket_zendesk = Column(String, nullable=True)
+
+
+
+class TblGroundOpsComments(Base):
+    __tablename__ = "Tbl_Ground_ops_comments"
+    __table_args__ = {'schema': 'bender'}
+
+    id = Column(Integer, primary_key=True, index=True)
+    baggage_case_id = Column(String, nullable=False)  
+    text = Column(String, nullable=False)
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)

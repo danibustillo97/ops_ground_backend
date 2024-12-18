@@ -16,9 +16,7 @@ HEADERS = {"Content-Type": "application/json"}
 
 
 def create_ticket_in_zendesk(baggage_case: BaggageCaseCreate) -> int:
-    """Crea un ticket en Zendesk y retorna su número."""
-
-    # Formatear la fecha de salida
+ 
     try:
         departure_date_str = baggage_case.flight_info.departureDate  
         departure_date = datetime.strptime(departure_date_str, "%Y%m%d") 
@@ -27,7 +25,7 @@ def create_ticket_in_zendesk(baggage_case: BaggageCaseCreate) -> int:
         logger.error(f"Error parsing date: {departure_date_str}")
         raise HTTPException(status_code=422, detail="La fecha de salida no es válida.")
 
-    # Preparar los datos del ticket
+
     ticket_data = {
         "ticket": {
             "subject": baggage_case.baggage_code,
@@ -43,7 +41,7 @@ def create_ticket_in_zendesk(baggage_case: BaggageCaseCreate) -> int:
         }
     }
 
-    # Hacer la solicitud para crear el ticket
+
     response = requests.post(
         url=zendesk_url,
         auth=(zendesk_email, zendesk_password),
@@ -51,7 +49,6 @@ def create_ticket_in_zendesk(baggage_case: BaggageCaseCreate) -> int:
         json=ticket_data
     )
 
-    # Verificar la respuesta
     if response.status_code != 201:
         logger.error(f"Failed to create ticket: {response.text}")
         raise HTTPException(status_code=response.status_code, detail=response.text)

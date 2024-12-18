@@ -15,7 +15,6 @@ headers = {
 station_iata= 'SDQ'
 
 @router.get("/flights")
-# def get_flights(station_iata: str = Query(..., description="Código IATA de la estación")):
 def get_flights():    
     params = {
         "station_iata": station_iata, 

@@ -789,3 +789,290 @@ FROM bender.[Tbl_Baggage_Case_Ground_Ops] ORDER BY bender.[Tbl_Baggage_Case_Grou
 2024-11-26 10:54:37,951 - src.routes.baggage_case - INFO - Fetching baggage cases, skip=0, limit=300
 2024-11-26 10:54:38,143 - src.routes.baggage_case - INFO - Found 7 baggage cases.
 2024-11-26 10:54:38,144 - src.routes.baggage_case - INFO - Baggage cases response: [{'id': '19e945e3-1c9e-430e-ae50-31a518c99238', 'baggage_code': '0000551347', 'PNR': '987DR5', 'contact': {'phone': '5632257889', 'email': 'morgan.mejia1234@gmail.com'}, 'flight_info': {'flightNumber': '718', 'departureDate': '20240507', 'fromAirport': 'SDQ', 'toAirport': 'YYZ'}, 'passenger_name': 'MEJIAMESA/MORGANJHESURYMR', 'description': 'PRueba 28/10/2024', 'issue_type': 'Pérdida', 'status': 'En espera de pasajero', 'date_create': datetime.datetime(2024, 10, 28, 16, 28, 32, 770000), 'last_updated': datetime.datetime(2024, 10, 28, 22, 26, 44, 727000), 'number_ticket_zendesk': '1283661', 'pruebas_url': None, 'direccion_envio': None}, {'id': '1ae7631f-6a00-43b3-bd33-69a16eb855f1', 'baggage_code': '0000550829', 'PNR': 'ANS1WF', 'contact': {'phone': '551422862', 'email': 'star_cricket@yahoo.com'}, 'flight_info': {'flightNumber': '1636', 'departureDate': '20240506', 'fromAirport': 'SJO', 'toAirport': 'SDQ'}, 'passenger_name': 'KOLARIC/JENNIFERMRS', 'description': 'Pruebass', 'issue_type': 'Sobrante', 'status': 'Abierto', 'date_create': datetime.datetime(2024, 10, 28, 20, 43, 55, 823000), 'last_updated': datetime.datetime(2024, 10, 28, 20, 43, 55, 823000), 'number_ticket_zendesk': '1284336', 'pruebas_url': None, 'direccion_envio': None}, {'id': '21b4351b-b28f-4391-84bd-a0b9c81aa9c6', 'baggage_code': '0000548103', 'PNR': 'CKOK9K', 'contact': {'phone': '5632257889', 'email': 'manolortiz@gmail.com'}, 'flight_info': {'flightNumber': '2096', 'departureDate': '20240504', 'fromAirport': 'AUA', 'toAirport': 'SDQ'}, 'passenger_name': 'JREIGEISKANDAR/NATACHAMRS', 'description': 'rfsdgfsd', 'issue_type': 'Sobrante', 'status': 'Abierto', 'date_create': datetime.datetime(2024, 10, 29, 20, 1, 28, 530000), 'last_updated': datetime.datetime(2024, 10, 29, 20, 1, 28, 530000), 'number_ticket_zendesk': '1286681', 'pruebas_url': None, 'direccion_envio': None}, {'id': '77613e2b-0c54-46c0-8d9e-426a9ce03ec8', 'baggage_code': '0000864330', 'PNR': '7F16J0 ', 'contact': {'phone': '8297796738', 'email': 'MANUEL.TORIBIO@arajet.com'}, 'flight_info': {'flightNumber': '4102', 'departureDate': '20241031', 'fromAirport': 'SDQ', 'toAirport': 'NLU'}, 'passenger_name': 'GARCIA/OSCARESTEBANMR', 'description': 'adfasdf we', 'issue_type': 'Sobrante', 'status': 'Abierto', 'date_create': datetime.datetime(2024, 11, 1, 0, 12, 1, 547000), 'last_updated': datetime.datetime(2024, 11, 1, 0, 12, 1, 547000), 'number_ticket_zendesk': '1291141', 'pruebas_url': None, 'direccion_envio': None}, {'id': 'a32da762-57e1-4cc9-a57d-18ab7e659356', 'baggage_code': '0000548101', 'PNR': 'CKOK9K', 'contact': {'phone': '3225689', 'email': 'manolortiz@gmail.com'}, 'flight_info': {'flightNumber': '2096', 'departureDate': '20240504', 'fromAirport': 'AUA', 'toAirport': 'SDQ'}, 'passenger_name': 'ORTIZSALAS/LIAMALEXANDERMSTR', 'description': 'DSAdas', 'issue_type': 'Sobrante', 'status': 'Abierto', 'date_create': datetime.datetime(2024, 10, 29, 20, 6, 38, 370000), 'last_updated': datetime.datetime(2024, 10, 29, 20, 6, 38, 370000), 'number_ticket_zendesk': '1286693', 'pruebas_url': None, 'direccion_envio': None}, {'id': 'c63578c4-40a5-4070-881c-ad91594e3be4', 'baggage_code': '0919514940', 'PNR': 'T8H8QX', 'contact': {'phone': '56985233', 'email': 'karlagomezduran@gmail.com'}, 'flight_info': {'flightNumber': '721', 'departureDate': '20240412', 'fromAirport': 'YYZ', 'toAirport': 'SDQ'}, 'passenger_name': 'GOMEZDURAN/KARLAANNETTEMRS', 'description': 'Pruebaaaaaaa', 'issue_type': 'Pérdida', 'status': 'Abierto', 'date_create': datetime.datetime(2024, 10, 28, 20, 16, 51, 517000), 'last_updated': datetime.datetime(2024, 10, 28, 20, 16, 51, 517000), 'number_ticket_zendesk': '1284265', 'pruebas_url': None, 'direccion_envio': None}, {'id': 'd3d4e34d-5e00-41bf-b362-ef990d7bccb1', 'baggage_code': '0919514989', 'PNR': '987DR5', 'contact': {'phone': '56329541', 'email': 'morgan.mejia1234@gmail.com'}, 'flight_info': {'flightNumber': '721', 'departureDate': '20240412', 'fromAirport': 'YYZ', 'toAirport': 'SDQ'}, 'passenger_name': 'MEJIAMESA/MORGANJHESURYMR', 'description': 'dsadasd', 'issue_type': 'Retraso', 'status': 'Abierto', 'date_create': datetime.datetime(2024, 10, 29, 20, 30, 44, 20000), 'last_updated': datetime.datetime(2024, 10, 29, 20, 30, 44, 20000), 'number_ticket_zendesk': '1286751', 'pruebas_url': None, 'direccion_envio': 'Null'}]
+2024-12-09 14:18:55,330 - src.routes.baggage_case - INFO - Fetching baggage cases, skip=0, limit=300
+2024-12-09 14:18:57,357 - src.routes.baggage_case - INFO - Found 5 baggage cases.
+2024-12-09 14:18:57,358 - src.routes.baggage_case - INFO - Baggage cases response: [{'id': '19e945e3-1c9e-430e-ae50-31a518c99238', 'baggage_code': '0000551347', 'PNR': '987DR5', 'contact': {'phone': '5632257889', 'email': 'morgan.mejia1234@gmail.com'}, 'flight_info': {'flightNumber': '718', 'departureDate': '20240507', 'fromAirport': 'SDQ', 'toAirport': 'YYZ'}, 'passenger_name': 'MEJIAMESA/MORGANJHESURYMR', 'description': 'PRueba 28/10/2024', 'issue_type': 'Pérdida', 'status': 'En espera de pasajero', 'date_create': datetime.datetime(2024, 10, 28, 16, 28, 32, 770000), 'last_updated': datetime.datetime(2024, 10, 28, 22, 26, 44, 727000), 'number_ticket_zendesk': '1283661', 'pruebas_url': None, 'direccion_envio': None}, {'id': '1ae7631f-6a00-43b3-bd33-69a16eb855f1', 'baggage_code': '0000550829', 'PNR': 'ANS1WF', 'contact': {'phone': '551422862', 'email': 'star_cricket@yahoo.com'}, 'flight_info': {'flightNumber': '1636', 'departureDate': '20240506', 'fromAirport': 'SJO', 'toAirport': 'SDQ'}, 'passenger_name': 'KOLARIC/JENNIFERMRS', 'description': 'Pruebass', 'issue_type': 'Sobrante', 'status': 'Abierto', 'date_create': datetime.datetime(2024, 10, 28, 20, 43, 55, 823000), 'last_updated': datetime.datetime(2024, 10, 28, 20, 43, 55, 823000), 'number_ticket_zendesk': '1284336', 'pruebas_url': None, 'direccion_envio': None}, {'id': '21b4351b-b28f-4391-84bd-a0b9c81aa9c6', 'baggage_code': '0000548103', 'PNR': 'CKOK9K', 'contact': {'phone': '5632257889', 'email': 'manolortiz@gmail.com'}, 'flight_info': {'flightNumber': '2096', 'departureDate': '20240504', 'fromAirport': 'AUA', 'toAirport': 'SDQ'}, 'passenger_name': 'JREIGEISKANDAR/NATACHAMRS', 'description': 'rfsdgfsd', 'issue_type': 'Sobrante', 'status': 'Abierto', 'date_create': datetime.datetime(2024, 10, 29, 20, 1, 28, 530000), 'last_updated': datetime.datetime(2024, 10, 29, 20, 1, 28, 530000), 'number_ticket_zendesk': '1286681', 'pruebas_url': None, 'direccion_envio': None}, {'id': '77613e2b-0c54-46c0-8d9e-426a9ce03ec8', 'baggage_code': '0000864330', 'PNR': '7F16J0 ', 'contact': {'phone': '8297796738', 'email': 'MANUEL.TORIBIO@arajet.com'}, 'flight_info': {'flightNumber': '4102', 'departureDate': '20241031', 'fromAirport': 'SDQ', 'toAirport': 'NLU'}, 'passenger_name': 'GARCIA/OSCARESTEBANMR', 'description': 'adfasdf we', 'issue_type': 'Sobrante', 'status': 'Abierto', 'date_create': datetime.datetime(2024, 11, 1, 0, 12, 1, 547000), 'last_updated': datetime.datetime(2024, 11, 1, 0, 12, 1, 547000), 'number_ticket_zendesk': '1291141', 'pruebas_url': None, 'direccion_envio': None}, {'id': 'c63578c4-40a5-4070-881c-ad91594e3be4', 'baggage_code': '0919514940', 'PNR': 'T8H8QX', 'contact': {'phone': '56985233', 'email': 'karlagomezduran@gmail.com'}, 'flight_info': {'flightNumber': '721', 'departureDate': '20240412', 'fromAirport': 'YYZ', 'toAirport': 'SDQ'}, 'passenger_name': 'GOMEZDURAN/KARLAANNETTEMRS', 'description': 'Pruebaaaaaaa', 'issue_type': 'Pérdida', 'status': 'Abierto', 'date_create': datetime.datetime(2024, 10, 28, 20, 16, 51, 517000), 'last_updated': datetime.datetime(2024, 10, 28, 20, 16, 51, 517000), 'number_ticket_zendesk': '1284265', 'pruebas_url': None, 'direccion_envio': None}]
+2024-12-10 09:16:55,529 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:16:55,996 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:16:56,425 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:16:56,845 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:16:57,270 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:16:57,676 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:16:58,105 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:16:58,537 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:16:58,960 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:16:59,389 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:17:40,094 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:17:40,535 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:17:40,984 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:17:41,401 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:17:41,833 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:17:42,267 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:17:42,694 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:17:43,105 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:17:43,558 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:17:44,015 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:19:05,697 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:19:06,114 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:19:06,562 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:19:06,983 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:19:07,037 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:19:07,422 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:19:07,467 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:19:07,847 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:19:07,944 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:19:08,266 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:19:08,382 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:19:08,445 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:19:08,706 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:19:08,832 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:19:08,834 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:19:08,893 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:19:09,125 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:19:09,142 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:19:09,281 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:19:09,282 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:19:09,334 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:19:09,558 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:19:09,558 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:19:09,716 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:19:09,717 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:19:09,762 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:19:10,002 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:19:10,002 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:19:10,130 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:19:10,151 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:19:10,201 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:19:10,454 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:19:10,454 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:19:10,583 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:19:10,640 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:19:10,894 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:19:10,895 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:19:11,008 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:19:11,075 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:19:11,338 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:19:11,421 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:19:11,506 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:19:11,766 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:19:11,851 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:19:11,941 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:19:12,281 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:19:12,289 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:19:12,374 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:19:12,731 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:19:13,158 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:22:50,313 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:22:50,747 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:22:51,165 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:22:51,594 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:22:52,027 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:22:52,477 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:22:52,897 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:22:53,321 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:22:53,746 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:22:54,178 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:23:04,257 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:23:04,690 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:23:05,113 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:23:05,527 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:23:05,953 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:23:06,365 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:23:06,782 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:23:07,232 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:23:07,679 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:23:08,102 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:23:26,085 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:23:26,507 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 09:23:26,957 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:23:27,403 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 09:23:27,832 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:23:28,258 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 09:23:28,693 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:23:29,148 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 09:23:29,582 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 09:23:30,015 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 10:01:40,223 - src.routes.baggage_case - INFO - Updating baggage case with ID: 0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-10 10:01:40,658 - src.routes.baggage_case - INFO - Baggage case updated: ID=0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-10 10:01:40,925 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 10:01:41,362 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 10:01:41,649 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 10:01:42,073 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 10:01:42,330 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 10:01:42,769 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 10:01:43,042 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 10:01:43,469 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 10:01:43,735 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 10:01:44,156 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 10:02:00,623 - src.routes.baggage_case - INFO - Updating baggage case with ID: 0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-10 10:02:01,102 - src.routes.baggage_case - INFO - Baggage case updated: ID=0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-10 10:02:01,405 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 10:02:01,889 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 10:02:02,158 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 10:02:02,581 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 10:02:02,842 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 10:02:03,270 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 10:02:03,529 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 10:02:03,969 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 10:02:04,225 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 10:02:04,650 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 14:18:17,625 - src.routes.baggage_case - INFO - Updating baggage case with ID: 0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-10 14:18:18,105 - src.routes.baggage_case - INFO - Baggage case updated: ID=0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-10 14:18:18,399 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 14:18:18,860 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 14:18:19,145 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 14:18:19,610 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 14:18:19,891 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 14:18:20,346 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 14:18:20,651 - src.routes.baggage_case - INFO - Updating baggage case with ID: 518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-10 14:18:21,127 - src.routes.baggage_case - INFO - Baggage case updated: ID=518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-10 14:18:21,402 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 14:18:21,879 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 14:18:22,186 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 14:18:22,651 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 14:18:22,939 - src.routes.baggage_case - INFO - Updating baggage case with ID: d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-10 14:18:23,417 - src.routes.baggage_case - INFO - Baggage case updated: ID=d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-10 14:18:28,291 - src.routes.baggage_case - INFO - Updating baggage case with ID: 0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-10 14:18:28,755 - src.routes.baggage_case - INFO - Baggage case updated: ID=0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-10 14:18:29,047 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 14:18:29,502 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 14:18:29,783 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 14:18:30,234 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 14:18:30,514 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 14:18:30,997 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 14:18:31,298 - src.routes.baggage_case - INFO - Updating baggage case with ID: 518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-10 14:18:31,750 - src.routes.baggage_case - INFO - Baggage case updated: ID=518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-10 14:18:32,031 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 14:18:32,490 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 14:18:32,767 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 14:18:33,230 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 14:18:33,519 - src.routes.baggage_case - INFO - Updating baggage case with ID: d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-10 14:18:33,966 - src.routes.baggage_case - INFO - Baggage case updated: ID=d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-10 14:18:50,345 - src.routes.baggage_case - INFO - Updating baggage case with ID: 0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-10 14:18:50,809 - src.routes.baggage_case - INFO - Baggage case updated: ID=0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-10 14:18:51,095 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 14:18:51,561 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-10 14:18:51,837 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 14:18:52,293 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-10 14:18:52,584 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 14:18:53,033 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-10 14:18:53,317 - src.routes.baggage_case - INFO - Updating baggage case with ID: 518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-10 14:18:53,773 - src.routes.baggage_case - INFO - Baggage case updated: ID=518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-10 14:18:54,052 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 14:18:54,528 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-10 14:18:54,803 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 14:18:55,261 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-10 14:18:55,555 - src.routes.baggage_case - INFO - Updating baggage case with ID: d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-10 14:18:56,002 - src.routes.baggage_case - INFO - Baggage case updated: ID=d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-11 12:24:28,665 - src.routes.baggage_case - INFO - Updating baggage case with ID: 0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-11 12:24:29,110 - src.routes.baggage_case - INFO - Baggage case updated: ID=0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-11 12:24:29,392 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-11 12:24:29,847 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-11 12:24:30,127 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-11 12:24:30,617 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-11 12:24:30,894 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-11 12:24:31,457 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-11 12:24:31,796 - src.routes.baggage_case - INFO - Updating baggage case with ID: 518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-11 12:24:32,208 - src.routes.baggage_case - INFO - Baggage case updated: ID=518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-11 12:24:32,472 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-11 12:24:32,904 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-11 12:24:33,172 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-11 12:24:33,615 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-11 12:24:33,877 - src.routes.baggage_case - INFO - Updating baggage case with ID: d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-11 12:24:34,328 - src.routes.baggage_case - INFO - Baggage case updated: ID=d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-11 12:29:27,448 - src.routes.baggage_case - INFO - Updating baggage case with ID: 0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-11 12:29:27,854 - src.routes.baggage_case - INFO - Baggage case updated: ID=0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-11 12:29:28,155 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-11 12:29:28,558 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-11 12:29:28,874 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-11 12:29:29,295 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-11 12:29:29,544 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-11 12:29:30,066 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-11 12:29:30,343 - src.routes.baggage_case - INFO - Updating baggage case with ID: 518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-11 12:29:30,744 - src.routes.baggage_case - INFO - Baggage case updated: ID=518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-11 12:29:31,104 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-11 12:29:31,539 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-11 12:29:31,809 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-11 12:29:32,307 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-11 12:29:32,625 - src.routes.baggage_case - INFO - Updating baggage case with ID: d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-11 12:29:33,030 - src.routes.baggage_case - INFO - Baggage case updated: ID=d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-11 12:35:30,798 - src.routes.baggage_case - INFO - Updating baggage case with ID: 0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-11 12:35:31,226 - src.routes.baggage_case - INFO - Baggage case updated: ID=0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-11 12:35:31,479 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-11 12:35:31,883 - src.routes.baggage_case - INFO - Updating baggage case with ID: 0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-11 12:35:31,883 - src.routes.baggage_case - INFO - Updating baggage case with ID: 0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-11 12:35:31,945 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-11 12:35:32,213 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-11 12:35:32,359 - src.routes.baggage_case - INFO - Baggage case updated: ID=0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-11 12:35:32,544 - src.routes.baggage_case - INFO - Baggage case updated: ID=0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-11 12:35:32,635 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-11 12:35:32,678 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-11 12:35:32,832 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-11 12:35:32,963 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-11 12:35:33,102 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-11 12:35:33,316 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-11 12:35:33,379 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-11 12:35:33,426 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-11 12:35:33,618 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-11 12:35:33,699 - src.routes.baggage_case - INFO - Updating baggage case with ID: 518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-11 12:35:33,845 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-11 12:35:34,066 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-11 12:35:34,144 - src.routes.baggage_case - INFO - Baggage case updated: ID=518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-11 12:35:34,144 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-11 12:35:34,329 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-11 12:35:34,433 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-11 12:35:34,626 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-11 12:35:34,757 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-11 12:35:34,875 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-11 12:35:34,904 - src.routes.baggage_case - INFO - Updating baggage case with ID: 518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-11 12:35:35,012 - src.routes.baggage_case - INFO - Updating baggage case with ID: 518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-11 12:35:35,128 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-11 12:35:35,330 - src.routes.baggage_case - INFO - Baggage case updated: ID=518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-11 12:35:35,511 - src.routes.baggage_case - INFO - Baggage case updated: ID=518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-11 12:35:35,566 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-11 12:35:35,659 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-11 12:35:35,816 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-11 12:35:35,832 - src.routes.baggage_case - INFO - Updating baggage case with ID: d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-11 12:35:36,095 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-11 12:35:36,264 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-11 12:35:36,264 - src.routes.baggage_case - INFO - Baggage case updated: ID=d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-11 12:35:36,370 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-11 12:35:36,565 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-11 12:35:36,845 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-11 12:35:37,026 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-11 12:35:37,100 - src.routes.baggage_case - INFO - Updating baggage case with ID: d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-11 12:35:37,297 - src.routes.baggage_case - INFO - Updating baggage case with ID: d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-11 12:35:37,548 - src.routes.baggage_case - INFO - Baggage case updated: ID=d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-11 12:35:37,710 - src.routes.baggage_case - INFO - Baggage case updated: ID=d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-11 12:37:39,374 - src.routes.baggage_case - INFO - Updating baggage case with ID: 0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-11 12:37:39,864 - src.routes.baggage_case - INFO - Baggage case updated: ID=0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-11 12:37:40,133 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-11 12:37:40,570 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-11 12:37:40,899 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-11 12:37:41,342 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-11 12:37:41,596 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-11 12:37:42,038 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-11 12:37:42,297 - src.routes.baggage_case - INFO - Updating baggage case with ID: 518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-11 12:37:42,746 - src.routes.baggage_case - INFO - Baggage case updated: ID=518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-11 12:37:43,004 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-11 12:37:43,428 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-11 12:37:43,686 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-11 12:37:44,182 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-11 12:37:44,435 - src.routes.baggage_case - INFO - Updating baggage case with ID: d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-11 12:37:44,853 - src.routes.baggage_case - INFO - Baggage case updated: ID=d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-12 09:52:13,087 - src.routes.baggage_case - INFO - Updating baggage case with ID: 0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-12 09:52:14,074 - src.routes.baggage_case - INFO - Baggage case updated: ID=0c32dce8-c98b-4194-902d-984fd0c0d1ee
+2024-12-12 09:52:14,941 - src.routes.baggage_case - INFO - Updating baggage case with ID: 19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-12 09:52:15,393 - src.routes.baggage_case - INFO - Baggage case updated: ID=19e945e3-1c9e-430e-ae50-31a518c99238
+2024-12-12 09:52:15,685 - src.routes.baggage_case - INFO - Updating baggage case with ID: 1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-12 09:52:16,124 - src.routes.baggage_case - INFO - Baggage case updated: ID=1ae7631f-6a00-43b3-bd33-69a16eb855f1
+2024-12-12 09:52:16,394 - src.routes.baggage_case - INFO - Updating baggage case with ID: 21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-12 09:52:16,812 - src.routes.baggage_case - INFO - Baggage case updated: ID=21b4351b-b28f-4391-84bd-a0b9c81aa9c6
+2024-12-12 09:52:17,086 - src.routes.baggage_case - INFO - Updating baggage case with ID: 518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-12 09:52:17,520 - src.routes.baggage_case - INFO - Baggage case updated: ID=518aa2d3-d758-48f3-a116-10a4e6935d96
+2024-12-12 09:52:17,776 - src.routes.baggage_case - INFO - Updating baggage case with ID: 77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-12 09:52:18,198 - src.routes.baggage_case - INFO - Baggage case updated: ID=77613e2b-0c54-46c0-8d9e-426a9ce03ec8
+2024-12-12 09:52:18,480 - src.routes.baggage_case - INFO - Updating baggage case with ID: c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-12 09:52:18,896 - src.routes.baggage_case - INFO - Baggage case updated: ID=c63578c4-40a5-4070-881c-ad91594e3be4
+2024-12-12 09:52:19,163 - src.routes.baggage_case - INFO - Updating baggage case with ID: d70c0253-ab88-4747-a7f8-302c7a41c924
+2024-12-12 09:52:19,619 - src.routes.baggage_case - INFO - Baggage case updated: ID=d70c0253-ab88-4747-a7f8-302c7a41c924
